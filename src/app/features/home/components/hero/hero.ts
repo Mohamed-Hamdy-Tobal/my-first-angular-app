@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 })
 export class Hero {
   name: string = 'Mohamed Tobal';
-  disabled: boolean = true;
+  disabled: boolean = false;
   status: string = 'active';
+  handleClick() {
+    console.log('Button clicked');
+  }
 }
